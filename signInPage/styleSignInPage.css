@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0ps;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+#imgLogo{
+    margin:23px 0px 0px 43px;
+}
+#section1{
+    background: rgba(0, 0, 0, 0.57) url(../assets/nextFlix_background.jpg) no-repeat center 0px;
+    background-size:cover;
+    background-blend-mode: darken;
+
+}
+#section1 .card{
+    display:block;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 330px;
+    padding: 40px 60px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 5px;
+    margin-bottom: 100px;
+    color: white;
+    flex-wrap:wrap-reverse ;
+}
+    .inputSignIn,.signInButton{
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+        border-width: 0px;
+        font-weight:bolder;
+    }
+    .inputSignIn{
+        padding: 18px 128px 18px 24px;
+        background-color: rgb(62, 60, 60);
+    }
+    .signInButton{
+        padding: 15px 136px;
+        background-color: red;
+        color: white;
+        font-size: 17px;
+    }
+    .card span,a{
+        color:#777;
+    }
+    .card .signUp{
+        color: white;
+    }
+    a.learnMore{
+        color: #0071eb;
+    }
+
+#footPage{
+    padding: 20px 0px 50px 0px;
+    background: rgba(0, 0,0,0.7);
+    }
+    #footPage .col-8{
+        margin: 0px auto;
+      }
+        #footPage ul{
+            display: grid;
+            grid-template-areas:     
+            'itemFooter itemFooter itemFooter itemFooter'
+            'itemFooter itemFooter itemFooter itemFooter';
+            gap: 15px;
+            padding: 5px;
+            list-style: none;
+        }
+        #footPage a,label{
+            color:#777;
+            font-size: 12px;
+        }
+
+        #footPage select{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+.row{
+    display:block;
+    width: 100%;
+    align-items: center; 
+}
+.col-middle{width: 4.15%;}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 75%;}
+.col-10{width: 80.33%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
